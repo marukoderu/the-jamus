@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("assets/fonts/PlayfairDisplay-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Neue Alte Grotesk';
+  src: url("assets/fonts/NeueAlteGrotesk-bold.otf") format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Neue Alte Grotesk';
+  src: url("assets/fonts/NeueAlteGrotesk-regular.otf") format('opentype');
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
