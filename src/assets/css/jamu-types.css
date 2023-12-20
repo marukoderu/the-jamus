@@ -10,7 +10,7 @@ body{
     overflow-x: scroll;
 }
 
-.main-container {
+.main_container {
     background-color: #ebe3d5;
     min-width: 100%;
     width: 150vw;
@@ -19,6 +19,7 @@ body{
     display: flex;
     overflow-y: hidden;
     height: 100vh;
+
 }
 
 .types-title {
