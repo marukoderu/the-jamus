@@ -35,13 +35,10 @@
     display: flex;
     align-items: center; /* Align the text to the top */
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     gap: 20px;
     padding-top: 50px;
-    font-weight: bold;
     color: #776B5D;
-
 }
 
 @media (max-width: 768px) {
