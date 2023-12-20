@@ -9,6 +9,18 @@
 
 @font-face {
   font-family: 'Neue Alte Grotesk';
+  src: url("assets/fonts/NeueAlteGrotesk-light.otf") format('opentype');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'Neue Alte Grotesk';
+  src: url("assets/fonts/NeueAlteGrotesk-semibold.otf") format('opentype');
+  font-weight: semibold;
+}
+
+@font-face {
+  font-family: 'Neue Alte Grotesk';
   src: url("assets/fonts/NeueAlteGrotesk-bold.otf") format('opentype');
   font-weight: bold;
 }
