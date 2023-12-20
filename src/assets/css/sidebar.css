@@ -1,0 +1,45 @@
+.container {
+    background-color: #F3EEEA;
+    border-right: 2px solid #776B5D;
+    padding: 0;
+    width: 100px;
+    height: 100vh; /* Set a height to fill the vertical space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust the space between title and content */
+}
+.title > h1 {
+    font-family: 'Playfair Display', serif;
+    color: #776B5D;
+    font-size: 50px;
+    margin: 0; /* Remove default margins */
+    writing-mode: vertical-rl; /* Use vertical writing mode */
+    text-orientation: mixed; /* Allow upright characters */
+    transform: rotate(180deg); /* Adjust rotation to display text properly */
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    width: 100%; /* Adjust width to fill the container */
+    display: flex;
+    align-items: flex-end; /* Align the text to the bottom */
+}
+
+.content {
+    writing-mode: vertical-rl; /* Use vertical writing mode */
+    text-orientation: mixed; /* Allow upright characters */
+    transform: rotate(180deg); /* Adjust rotation to display text properly */
+    width: 100%; /* Adjust width to fill the container */
+    display: flex;
+    align-items: flex-start; /* Align the text to the top */
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    gap: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #776B5D;
+
+}
