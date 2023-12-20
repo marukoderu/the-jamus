@@ -50,9 +50,9 @@ export const StepByStep = () => {
 
   return (
     <>
-      <div id="scrollContainer" className="main-container">
+      <div id="scrollContainer" className="main_container">
         <Sidebar />
-        <div className="title-step flex bg-primary py-10">
+        <div className="title-step flex bg-primary py-10 ml-20">
           <div className="flex flex-col pl-20 pr-72 gap-8 justify-center text-white font-playfair border-r-white border-r-2">
             <p className="font-neue font-normal text-lg">A step-by-step how to make jamu</p>
             <h1 className="text-9xl">BERAS</h1>
