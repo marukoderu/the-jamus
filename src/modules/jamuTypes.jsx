@@ -64,9 +64,9 @@ export const JamuTypes = () => {
   return (
     <>
 
-      <div id="scrollContainer" className="main-container">
+      <div id="scrollContainer" className="main_container">
       <Sidebar />
-        <div className="types-title font-playfair text-primary py-1 flex flex-nowrap">
+        <div className="types-title font-playfair text-primary py-1 flex flex-nowrap ml-36">
             <h1 className="text-9xl pr-3 pl-4 font-medium">DIVE INTO JAMU</h1>
         </div>
         <Divider />

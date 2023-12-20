@@ -1,16 +1,14 @@
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    background: transparent;
+  width: 0px;
+  height: 0px;
+  background: transparent;
 }
 
-body{
-    overflow-y: hidden;
-    background-color: #ebe3d5;
-    overflow-x: scroll;
+body {
+  overflow-y: hidden;
+  background-color: #ebe3d5;
+  overflow-x: scroll;
 }
-
-
 
 .main-container {
   background-color: #ebe3d5;
@@ -22,12 +20,22 @@ body{
   height: 100vh;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #776b5d;
+  margin: 1em 0;
+  padding: 0;
+}
+
 .about-jamus {
   display: flex;
   height: 100vh;
   padding: 30px 0px 30px 30px;
   width: 110vw;
   padding-top: 60px;
+  margin-left: 6rem;
 }
 
 .about-jamus .jamus-details {
@@ -49,7 +57,7 @@ body{
   font-size: 110px;
 }
 
-.scroll-container{
+.scroll-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,21 +65,22 @@ body{
   gap: 30px;
 }
 
-.scroll-container .text{
+.scroll-container .text {
   flex: 70%;
   display: flex;
   justify-content: flex-end;
 }
 
-.scroll-container > hr{
+.scroll-container > hr {
   flex: 30%;
 }
 
 .about-jamus .jamus-desc {
   flex: 55%;
-  padding-bottom: 15%;
   display: flex;
   align-items: end;
+  opacity: 0;
+  transform: translateY(300px);
 }
 
 .about-jamus .jamus-desc p {
@@ -82,13 +91,14 @@ body{
 .about-jamus .jamus-img {
   flex: 40%;
   width: 100%;
+  opacity: 0;
+  transform: translateY(-100px);
 }
 
 .about-jamus .jamus-img img {
-    width: 100%; 
-    height: 85%;
-    border-radius: 3%;
-
+  width: 100%;
+  height: 85%;
+  border-radius: 3%;
 }
 
 .manfaat-jamus {
@@ -99,7 +109,7 @@ body{
 }
 
 .manfaat-jamus .jamus-details {
-  padding-top: 40px;
+  padding-top: 70px;
   padding-left: 30px;
   flex: 40%;
   display: flex;
@@ -112,7 +122,7 @@ body{
   color: #776b5d;
   font-size: 54px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   padding-bottom: 10%;
 }
 
@@ -124,6 +134,8 @@ body{
 .manfaat-jamus .jamus-desc {
   flex: 25%;
   display: flex;
+  opacity: 0;
+  transform: translateY(-100px);
 }
 
 .manfaat-jamus .jamus-desc p {
@@ -142,7 +154,8 @@ body{
   flex: 50%;
   margin: 0;
   padding: 0;
-
+  opacity: 0;
+  transform: translateY(100px);
 }
 
 .img-jamus-2 {
@@ -152,25 +165,24 @@ body{
   flex: 50%;
   margin: 0;
   padding: 0;
+  opacity: 0;
+  transform: translateY(-100px);
 }
 
 .img-jamus-1 img {
   width: 100%;
   height: 70%;
-
 }
 .img-jamus-2 img {
   width: 100%;
   height: 70%;
 }
 
-
 @media (max-width: 768px) {
-  body{
+  body {
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
+  }
 
   .main-container {
     width: auto;
@@ -178,23 +190,29 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     height: auto;
-    
   }
 
   .about-jamus .jamus-img {
     width: 95%;
     height: 100%;
   }
-  
-  .manfaat-jamus{
+
+  .about-jamus .jamus-img img {
+    height: 100%;
+  }
+
+  .manfaat-jamus {
     flex-direction: column;
-    padding: 10px;
+    padding: 12px;
   }
   .about-jamus {
     width: 100vw;
+    height: max-content;
     flex-direction: column;
     padding: 10px;
-
+    gap: 2rem;
+    margin: 0;
+    margin-top: 2rem;
   }
 
   .manfaat-jamus .tittle {
@@ -213,7 +231,7 @@ body{
     margin: 0;
     padding: 0;
   }
-  
+
   .img-jamus-2 {
     display: flex;
     height: 100vh;
@@ -228,13 +246,27 @@ body{
     padding-right: 1rem;
   }
 
-  .about-jamus .tittle > h1{
+  .about-jamus .tittle > h1 {
     font-size: 80px;
   }
 
-  .manfaat-jamus .jamus-details{
+  .manfaat-jamus .jamus-details {
     padding: 0;
     flex-direction: column;
   }
-  
+
+  .manfaat-jamus .jamus-img {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .img-jamus-1,
+  .img-jamus-2 {
+    align-items: flex-start;
+  }
+
+  .img-jamus-1 img,
+  .img-jamus-2 img {
+    height: 100%;
+  }
 }

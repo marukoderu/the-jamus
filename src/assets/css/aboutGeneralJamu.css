@@ -2,33 +2,31 @@
     width: 0px;
     height: 0px;
     background: transparent;
-}
-
-body{
+  }
+  
+  body {
     overflow-y: hidden;
     background-color: #ebe3d5;
     overflow-x: scroll;
-}
-
-.main_container {
+  }
+  
+  .mainContainer {
     background-color: #ebe3d5;
-    min-width: 100%;
+    width: 300vw;
     scroll-behavior: smooth;
     overflow-x: hidden;
     display: flex;
     overflow-y: hidden;
     height: 100vh;
-}
-
-
-.ornament::after {
-    content: "";
-    display: inline-block;
-    width: 180px;
-    height: 2px;
-    background-color: #fff;
-    margin-left: 100px;
-    margin-bottom: 5px;
   }
-  
+
+  .jamu-title{
+    color: #776b5d;
+  }
+
+  .containerAtas{
+    flex: 50%;
+  }
+
+ 
   
