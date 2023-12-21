@@ -3,7 +3,7 @@ import '../assets/css/trans.css'
 import gsap, {Power4} from 'gsap'
 
 export function Transition({timeline}) {
-    const trans = useRef(null);
+    let trans = useRef(null);
     const transImg = useRef(null);
     useEffect(() => {
         timeline.to(trans.current, {
