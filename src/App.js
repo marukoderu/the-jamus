@@ -4,11 +4,13 @@ import { StepByStep } from "./modules/stepByStep";
 import { AboutGeneralJamus } from "./modules/aboutGeneralJamu";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Landing } from "./modules/landing";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={Landing()} />
         <Route path="/step-by-step" element={StepByStep()} />
         <Route path="/jamu-types" element={JamuTypes()} />
         <Route path="/about-jamus" element={AboutJamus()} />

@@ -1,0 +1,22 @@
+.transition-effect{
+    position: absolute;
+    z-index: 1000000000000000;
+    background-color: #776B5D;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes img-opc { 
+    0%, 100% {
+        opacity: 0;
+    }
+        50% {
+        opacity: 1;
+    }
+  }
+
+  .img-trans {
+    opacity: 0;
+    animation: img-opc 2s ease-in-out;
+  }
