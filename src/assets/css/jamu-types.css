@@ -1,7 +1,15 @@
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Optional: Define scrollbar track and handle styles */
+body::-webkit-scrollbar-track {
     background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
 }
 
 body{
@@ -10,16 +18,14 @@ body{
     overflow-x: scroll;
 }
 
-.main_container {
+.container-types {
     background-color: #ebe3d5;
-    min-width: 100%;
+    min-height: 100vh; /* Set a minimum height for smaller screens */
     width: 150vw;
     scroll-behavior: smooth;
     overflow-x: hidden;
     display: flex;
     overflow-y: hidden;
-    height: 100vh;
-
 }
 
 .types-title {
@@ -38,20 +44,16 @@ body{
 
 @media (max-width: 768px) {
     body {
-      overflow-y: scroll;
-      overflow-x: hidden;
-    }
-  
-  
-    .main-container {
-      width: auto;
-      flex-direction: column;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      height: auto;
-      
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
+    .container-types {
+        width: auto;
+        flex-direction: column;
+        overflow-y: auto; /* Enable scrolling for smaller screens */
+        height: auto; /* Reset the height */
+    }
     .types-title h1 {
         margin: 0;
         writing-mode: horizontal-tb;
@@ -59,4 +61,21 @@ body{
         padding-right: 20px;
         padding-left: 20px;
     }
-}  
+}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        background-color: #ebe3d5;
+        overflow-y: auto;
+    }
+
+    .container-types {
+        background-color: #ebe3d5;
+        min-height: 200vh; /* Set a minimum height for smaller screens */
+        width: 150vw;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        display: flex;
+        overflow-y: hidden;
+    }
+}

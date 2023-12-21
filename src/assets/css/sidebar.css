@@ -3,10 +3,12 @@
     border-right: 2px solid #776B5D;
     padding: 0;
     width: 100px;
-    height: 100vh; /* Set a height to fill the vertical space */
+    height: 100%; /* Set a height to fill the vertical space */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Adjust the space between title and content */
+    position: fixed;
+    z-index: 999;
 }
 .title > h1 {
     font-family: 'Playfair Display', serif;
