@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.ld-container {
+    height: 100vh;
+}
+
+.ld-logo h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #776B5D;
+    font-weight: 700;
+}
+
+.ld-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 128px;
+    color: #776B5D;
+    font-weight: 500;
+}
+
+.ld-content h1:nth-child(2),
+.ld-content h1:nth-child(6) {
+    /* color: red; */
+    text-align: right;
+}
