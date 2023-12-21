@@ -51,6 +51,15 @@ export const StepByStep = () => {
 		    <Divider />
         
         <div className="flex md:flex-row flex-col w-full text-white">
+        <div className="jamu-steps mx-auto flex flex-col font-playfair justify-center px-10">
+              <h1 data-aos="fade-right" data-aos-duration="1000" className="text-5xl">INGREDIENTS</h1>
+              <ol data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="list-decimal mt-8 text-4xl text-left md:px-20">
+                <li>hehe</li>
+                <li>haha</li>
+                <li>hihi</li>
+              </ol>
+            </div>
+            <Divider />
           <div className="jamu-steps mx-auto flex md:flex-row flex-col">
               <div className="flex justify-center items-center lg:text-9xl text-7xl font-playfair">
                 <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" className="number md:ml-5 md:mr-3 ml-0 mb-5">1</h1>
