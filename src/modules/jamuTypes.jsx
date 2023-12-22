@@ -2,7 +2,7 @@ import "../assets/css/jamu-types.css";
 
 import { useEffect } from "react";
 import { Sidebar } from "../components/sidebar";
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -46,7 +46,7 @@ export const JamuTypes = () => {
         <Divider />
         <div className="flex md:flex-row flex-col">
           {/* Jenis Jamu: Beras Kencur */}
-          <Link to={`/jamu/beras-kencur`} className="jamu-types text-primary">
+          <a href={`/jamu/beras-kencur`} className="jamu-types text-primary">
             <div className="flex md:flex-col flex-col-reverse px-10 md:pt-20 pt-5 md:-mb-16 gap-12">
               <h1 data-aos="fade-down" data-aos-duration="1500" className="font-playfair text-5xl font-medium">BERAS<br /> KENCUR</h1>
               <p className="font-neue font-normal text-justify md:text-xl text-xl mb-10 mt-10 lg:w-3/4 w-full">
@@ -54,11 +54,11 @@ export const JamuTypes = () => {
               </p>
               <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/beras-kencur.png")} alt="" className="rounded-xl mb-0 2xl:min-w-[500px] max-w-[500px]" />
             </div>
-          </Link>
+          </a>
           <Divider />
 
           {/* Jenis Jamu: Kunyit Asam */}
-          <Link to={`/jamu/kunyit-asam`} className="jamu-types text-primary">
+          <a href={`/jamu/jamu-kunyit`} className="jamu-types text-primary">
             <div className="flex flex-col px-10 md:-mt-20 gap-12">
               <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/ka-5.png")} alt="" className="rounded-xl mb-0 2xl:min-w-[500px] max-w-[500px]" />
               <p className="font-neue font-normal text-justify md:text-xl text-xl md:mt-10 md:mb-10 lg:w-3/4 w-full">
@@ -66,11 +66,11 @@ export const JamuTypes = () => {
               </p>
               <h1 data-aos="fade-up" data-aos-duration="1500" className="font-playfair text-5xl font-medium">KUNYIT<br /> ASAM</h1>
             </div>
-          </Link>
+          </a>
           <Divider />
 
           {/* Jenis Jamu: Temulawak */}
-          <Link to={`/jamu/temulawak`} className="jamu-types text-primary">
+          <a href={`/jamu/jamu-temulawak`} className="jamu-types text-primary">
             <div className="flex md:flex-col flex-col-reverse px-10 md:pt-20 pt-5 md:-mb-12 gap-12">
               <h1 data-aos="fade-down" data-aos-duration="1500" className="font-playfair text-5xl font-medium">TEMULAWAK</h1>
               <p className="font-neue font-normal text-justify md:text-xl text-xl mb-10 mt-10 lg:w-3/4 w-full">
@@ -78,11 +78,11 @@ export const JamuTypes = () => {
               </p>
               <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/te-5.png")} alt="" className="rounded-xl mb-0 2xl:min-w-[500px] max-w-[500px]" />
             </div>
-          </Link>
+          </a>
           <Divider />
 
           {/* Jenis Jamu: Brotowali */}
-          <Link to={`/jamu/brotowali`} className="jamu-types text-primary">
+          <a href={`/jamu/jamu-brotowali`} className="jamu-types text-primary">
             <div className="flex flex-col px-10 lg:-mt-20 gap-12">
               <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/brontowali.png")} alt="" className="rounded-xl mb-0 lg:min-w-[700px] 2xl:min-w-[500px] max-w-[500px]" />
               <p className="font-neue font-normal text-justify md:text-xl text-xl md:mt-16 md:mb-10 lg:w-3/4 w-full">
@@ -90,11 +90,11 @@ export const JamuTypes = () => {
               </p>
               <h1 data-aos="fade-up" data-aos-duration="1500" className="font-playfair text-5xl font-medium">BROTOWALI</h1>
             </div>
-          </Link>
+          </a>
           <Divider />
 
           {/* Jenis Jamu: Empon-Empon */}
-          <Link to={`/jamu/empon-empon`} className="jamu-types text-primary">
+          <a href={`/jamu/jamu-empon`} className="jamu-types text-primary">
             <div className="flex md:flex-col flex-col-reverse px-10 md:pt-20 pt-5 md:-mb-16 gap-12">
               <h1 data-aos="fade-down" data-aos-duration="1500" className="font-playfair text-5xl font-medium">EMPON-EMPON</h1>
               <p className="font-neue font-normal text-justify md:text-xl text-xl mb-10 mt-10 lg:w-3/4 w-full">
@@ -102,7 +102,7 @@ export const JamuTypes = () => {
               </p>
               <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/mp-4.png")} alt="" className="rounded-xl mb-0 2xl:min-w-[500px] max-w-[500px]" />
             </div>
-          </Link>
+          </a>
           <Divider />
         </div>
       </div>
