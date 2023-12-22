@@ -10,7 +10,7 @@ body {
 
 .container-types {
     min-width: 100%;
-    width: 150vw;
+    width: 170vw;
     scroll-behavior: smooth;
     overflow-x: hidden;
     display: flex;
@@ -56,6 +56,7 @@ body {
         padding-right: 20px;
         padding-left: 20px;
     }
+
 }
 
 @media all and (min-width: 480px) and (max-width: 1024px) {
