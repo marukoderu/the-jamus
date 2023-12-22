@@ -57,6 +57,28 @@ hr {
   font-size: 110px;
 }
 
+.reseplink{
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.buttonRecipe{
+  width: 100%;
+  background-color: #ebe3d5 ;
+  color: #776b5d;
+  border: 1px solid #776b5d ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 2rem;
+}
+
+.buttonRecipe:hover{
+  cursor: pointer;
+}
+
 .scroll-container {
   display: flex;
   justify-content: flex-end;
@@ -78,7 +100,8 @@ hr {
 .about-jamus .jamus-desc {
   flex: 55%;
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  justify-content: center;
   opacity: 0;
   transform: translateY(300px);
 }
@@ -210,10 +233,12 @@ hr {
     height: max-content;
     flex-direction: column;
     padding: 10px;
+    padding-right: 0px ;
     gap: 2rem;
     margin: 0;
     margin-top: 2rem;
   }
+
 
   .manfaat-jamus .tittle {
     font-size: 36px;
@@ -268,5 +293,11 @@ hr {
   .img-jamus-1 img,
   .img-jamus-2 img {
     height: 100%;
+  }
+
+  .reseplink{
+    width: 100%;
+    padding-right: 1rem;
+
   }
 }

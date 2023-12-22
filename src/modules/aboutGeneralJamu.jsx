@@ -68,7 +68,7 @@ export const AboutGeneralJamus = () => {
     <div id="scrollContainer" className="mainContainer  ">
       <Sidebar />
       <div className="contatainerLeft w-screen h-screen flex flex-col max-[768px]:flex-col-reverse   lg:ml-32 sm:ml-0 md:ml-32 ">
-        <div className=" containerAtas max-[768px]:h-max lg:h-auto jamu-img flex max-[768px]:flex-col max-[768px]:p-8   gap-3 flex-1">
+        <div className=" containerAtas max-[768px]:h-max lg:h-auto jamu-img flex max-[768px]:flex-col max-[768px]:p-3   gap-3 flex-1">
           <div
             className="img-1 w-full border-solid border-2 border-black  p-2 rounded-2xl translate-y-40 opacity-0"
             ref={(el) => {
@@ -96,7 +96,7 @@ export const AboutGeneralJamus = () => {
         </div>
         <div className="containerBawah flex max-[768px]:flex-col max-[768px]:gap-7 max-[768px]:w-screen  max-[768px]:h-max max-[768px]:items-center h-1/3 gap-1">
           <div
-            className="jamu-title w-full sm:text-7xl md:text-8xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair flex items-end max-[768px]:justify-center max-[768px]:items-center max-[768px]:text-5xl translate-y-40 opacity-0"
+            className="jamu-title w-full sm:text-7xl md:text-8xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-playfair flex items-end max-[768px]:pl-3 max-[768px]:justify-center max-[768px]:items-center max-[768px]:text-5xl translate-y-40 opacity-0"
             ref={(el) => {
               title = el;
             }}
@@ -118,7 +118,7 @@ export const AboutGeneralJamus = () => {
             </div>
           </div>
           <div
-            className="jamu-title w-3/4 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl  max-[768px]:items-center max-[768px]:text-5xl max-[768px]:w-screen  font-playfair flex items-end translate-y-40 opacity-0"
+            className="jamu-title w-3/4 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl max-[768px]:pl-3  max-[768px]:items-center max-[768px]:text-5xl max-[768px]:w-screen  font-playfair flex items-end translate-y-40 opacity-0"
             ref={(el) => {
               title2 = el;
             }}
@@ -134,8 +134,8 @@ export const AboutGeneralJamus = () => {
         className="flex max-[768px]:flex-col h-1/2  max-[768px]:gap-7"
         style={{ width: "100vw" }}
       >
-        <div className=" jamuDesc-2 sm:ml-0 sm:mt-32 lg:ml-32 md:ml-24 md:mt-0 lg:mt-0  flex flex-col items-center justify-center ">
-          <div className="text-justify w-3/4">
+        <div className=" jamuDesc-2 sm:ml-0 sm:mt-32 lg:ml-32 md:ml-24 md:mt-0 lg:mt-0 max-[768px]:mt-5  flex flex-col items-center justify-center ">
+          <div className="text-justify w-3/4 max-[768px]:w-full max-[768px]:pl-3 max-[768px]:pr-3">
             Jamu di Indonesia biasa digunakan sebagai obat herbal atau hasil
             meramu bahan-bahan yang berasal dari alam dan memiliki khasiat untuk
             kesehatan. Jamu tidak hanya berfungsi sebagai obat, tetapi juga
@@ -148,7 +148,7 @@ export const AboutGeneralJamus = () => {
           </div>
         </div>
         <div className=" jamuDesc-2  flex flex-col items-center justify-center">
-          <div className="text-justify w-3/4">
+          <div className="text-justify w-3/4 max-[768px]:w-full max-[768px]:pl-3 max-[768px]:pr-3">
             Sampai saat ini jamu masih menjadi ramuan yang dijaga kelestariannya
             sebagai kekayaan kearifan lokal, terutama di lingkungan keraton,
             seperti di Keraton Yogyakarta dan Surakarta. Seiring dengan kemajuan
@@ -161,12 +161,12 @@ export const AboutGeneralJamus = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col max-[768px]:">
+      <div className="w-screen h-screen flex flex-col max-[768px]:mt-4 max-[768px]:gap-7">
         <div className="w-full flex max-[768px]:flex-col flex-1 max-[768px]:justify-center max-[768px]:items-center  max-[768px]:gap-7">
-          <div className="jamu-title w-1/2 p-32 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl  font-playfair flex justify-center items-center  max-[768px]:justify-center max-[768px]:text-5xl  max-[768px]:p-0 ">
+          <div className="jamu-title  w-1/2 p-32 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl  font-playfair flex justify-center items-center max-[768px]:pl-3 max-[768px]:w-screen  max-[768px]:justify-end  max-[768px]:text-5xl  max-[768px]:p-0 ">
             <h1>CONNECTING PEOPLES</h1>
           </div>
-          <div className="w-1/2 flex justify-end">
+          <div className="w-1/2 flex max-[768px]:w-screen max-[768px]:p-3 justify-end">
             <img
               className="w-1/2 h-3/4 max-[768px]:h-max max-[768px]:w-screen "
               src={require("../assets/img/jamus-5.png")}
@@ -175,7 +175,7 @@ export const AboutGeneralJamus = () => {
           </div>
         </div>
         <div className=" jamuDesc-2  flex flex-col items-center justify-center flex-1">
-          <div className="text-justify w-3/4">
+          <div className="text-justify w-3/4 max-[768px]:w-full max-[768px]:pl-3 max-[768px]:pr-3">
             Mengolah Jamu tidak terlalu rumit, kebanyakan hanya mengambil sari
             dari perasan tumbuhan herbal. Ada juga dengan ditumbuk. Seringkali
             berbahan dasar kunyit, temulawak, lengkuas, jahe, kencur, dan kayu

@@ -14,6 +14,23 @@ export const AboutJamus = () => {
 
   console.log(jamu);
 
+  const link = () =>{
+    switch (jamu) {
+      case "beras-kencur":
+        return "beras-kencur"
+      case "jamu-kunyit":
+        return "kunyit-asam"
+      case "jamu-temulawak":
+        return "temulawak"
+      case "jamu-empon":
+        return "empon-empon"
+      case "jamu-brotowali":
+        return "brontowali"
+      default:
+        return null;
+    }
+  }
+
   const imgMain = () =>{
     switch (jamu) {
       case "beras-kencur":
@@ -26,6 +43,40 @@ export const AboutJamus = () => {
         return "mp-4.png"
       case "jamu-brotowali":
         return "brontowali.png"
+      default:
+        return null;
+    }
+  }
+
+  const imgSecondary = () =>{
+    switch (jamu) {
+      case "beras-kencur":
+        return "bk-1.png"
+      case "jamu-kunyit":
+        return "ka-1.png"
+      case "jamu-temulawak":
+        return "te-1.png"
+      case "jamu-empon":
+        return "mp-2.png"
+      case "jamu-brotowali":
+        return "br-1.png"
+      default:
+        return null;
+    }
+  }
+  
+  const imgThird = () =>{
+    switch (jamu) {
+      case "beras-kencur":
+        return "bk-3.png"
+      case "jamu-kunyit":
+        return "ka-4.png"
+      case "jamu-temulawak":
+        return "te-2.png"
+      case "jamu-empon":
+        return "mp-2.png"
+      case "jamu-brotowali":
+        return "br-3.png"
       default:
         return null;
     }
@@ -183,6 +234,7 @@ export const AboutJamus = () => {
             }}
           >
             <p>{jamuDesc() || "No description available"}</p>
+            <a href={`/jamu/${link()}/recipe`} className="reseplink"><div className="buttonRecipe">Resep</div></a>
           </div>
         </div>
         <div
@@ -222,7 +274,7 @@ export const AboutJamus = () => {
           >
             <img
               id="img-jamus-1"
-              src={require("../assets/img/jamus-2.png")}
+              src={require(`../assets/img/${imgSecondary()}`)}
               alt=""
             />
           </div>
@@ -234,7 +286,7 @@ export const AboutJamus = () => {
           >
             <img
               id="img-jamus-2"
-              src={require("../assets/img/jamus-1.png")}
+              src={require(`../assets/img/${imgThird()}`)}
               alt=""
             />
           </div>
