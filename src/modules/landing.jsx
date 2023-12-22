@@ -33,18 +33,18 @@ export const Landing = () => {
     return (
         <div className="landing h-screen w-screen">
             <Transition timeline={landing} />
-            <div ref={land1} className="ld-container grid grid-rows-5 content-center place-content-center">
-                <div className="ld-logo row-span-1 flex items-end">
-                    <h5>The Jamu's</h5>
+            <div ref={land1} className="ld-container lg:p-0 min-[320px]:p-5 sm:w-full grid grid-rows-6 content-center place-content-center">
+                <div className="ld-logo row-span-1 flex lg:items-end min-[320px]:items-center text-center">
+                    <h5 className="lg:text-4xl min-[320px]:text-xl">The Jamu's</h5>
                 </div>
 
-                <div className="ld-content text-3xl row-span-4 grid grid-cols-2 pt-[2em]">
-                    <h1>AUTHENTIC</h1>
-                    <h1>HERBAL</h1>
-                    <h1>CULTURAL</h1>
-                    <h1>TRADITIONAL</h1>
-                    <h1>HOLISTIC</h1>
-                    <h1>MEDICINAL</h1>
+                <div className="ld-content text-3xl row-span-5 grid lg:content-stretch min-[320px]:content-center lg:grid-cols-2 min-[320px]:grid-cols-1 lg:pt-[2em]">
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">AUTHENTIC</h1>
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">HERBAL</h1>
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">CULTURAL</h1>
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">TRADITIONAL</h1>
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">HOLISTIC</h1>
+                    <h1 className="lg:text-9xl min-[320px]:text-5xl border-b-2 border-[#776B5D]">MEDICINAL</h1>
                 </div>
             </div>
         </div>  
