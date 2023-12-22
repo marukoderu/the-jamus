@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={Landing()} />
         <Route path="/step-by-step" element={StepByStep()} />
         <Route path="/jamu-types" element={JamuTypes()} />
-        <Route path="/about-jamus" element={AboutJamus()} />
+        <Route path="/jamu/:jamu" element={<AboutJamus/>} />
         <Route path="/about-general-jamu" element={AboutGeneralJamus()}/>
       </Routes>
     </BrowserRouter>

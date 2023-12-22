@@ -1,4 +1,5 @@
 import '../assets/css/sidebar.css'
+import { Link } from 'react-router-dom'
 
 export const Sidebar = () => {
     return(
@@ -10,10 +11,10 @@ export const Sidebar = () => {
                 </div>
                 <div className="content">
                     <div className="content-1">
-                        <p>About</p>
+                        <a href={'/jamu-types'}><p>About</p></a>
                     </div>
                     <div className="content-1">
-                        <p>History</p>
+                        <a href={'/about-general-jamu'}><p>History</p></a>
                     </div>
                     <div className="content-1">
                         <p>Recipes</p>
