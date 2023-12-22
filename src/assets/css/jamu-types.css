@@ -10,7 +10,7 @@ body {
 
 .container-types {
     min-width: 100%;
-    width: 180vw;
+    width: 195vw;
     scroll-behavior: smooth;
     overflow-x: hidden;
     display: flex;
