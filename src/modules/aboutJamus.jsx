@@ -74,7 +74,7 @@ export const AboutJamus = () => {
       case "jamu-temulawak":
         return "te-2.png"
       case "jamu-empon":
-        return "mp-2.png"
+        return "mp-3.png"
       case "jamu-brotowali":
         return "br-3.png"
       default:

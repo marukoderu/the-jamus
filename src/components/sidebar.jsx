@@ -7,7 +7,7 @@ export const Sidebar = () => {
             <div className="fixed z-10 ">
             <div className="container shadow-black flex sticky top-0 left-0">
                 <div className="title">
-                    <h1>The Jamu’s</h1>
+                     <a href={'/'}><h1>The Jamu’s</h1></a>
                 </div>
                 <div className="content">
                     <div className="content-1">

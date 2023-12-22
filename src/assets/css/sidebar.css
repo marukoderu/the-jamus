@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 999;
 }
-.title > h1 {
+.title > a{
     font-family: 'Playfair Display', serif;
     color: #776B5D;
     font-size: 50px;
@@ -22,6 +22,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
 
 .title {
     width: 100%; /* Adjust width to fill the container */
