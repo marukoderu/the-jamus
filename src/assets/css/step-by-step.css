@@ -85,7 +85,8 @@ body {
     }
 
     .jamu-steps {
-      width: auto;
+      min-width: auto;
+      max-width: auto;
     }
 
     .jamu-ingre {

@@ -417,7 +417,7 @@ export const StepByStep = () => {
                     <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" className="number md:ml-5 md:mr-3 ml-0 mb-5">4</h1>
                 </div>
               <div className="flex md:flex-col flex-col-reverse px-12 lg:pt-20 pt-5 lg:-mb-16 gap-12">
-                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl md:mb-16 md:mt-10 lg:w-3/4 w-full">Tuang empon-empon ke dalam gelas. Gunakan saringan untuk memisahkan jamu dari ampas rimpangnya. Sajikan selagi hangat.</p>
+                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl md:mb-16 md:mt-10 lg:w-3/4 w-full">Tuang empon empon ke dalam gelas. Gunakan saringan untuk memisahkan jamu dari ampas rimpangnya. Sajikan selagi hangat.</p>
                   <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/mp-4.png")} alt="" className="rounded-xl mb-0" />
               </div>
           </div>
