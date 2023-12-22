@@ -256,7 +256,7 @@ export const StepByStep = () => {
         <div className="title-steps flex justify-center items-center bg-primary pt-10 lg:w-1/5 w-full">
           <div className="flex flex-col md:pl-20 md:ml-10 md:pr-72 pr-0 sm:px-auto pt-14 gap-8 justify-center items-center text-white font-playfair">
             <p data-aos="fade-right" data-aos-duration="1000" className="font-neue font-normal lg:text-2xl text-lg">A step<span className="font-playfair">-</span>by<span className="font-playfair">-</span>step how to make jamu</p>
-            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="lg:text-8xl text-7xl md:ml-52">TEMULAWAK</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="lg:text-8xl text-6xl md:ml-52">TEMULAWAK</h1>
             <p data-aos="fade-left" data-aos-duration="1000" className="font-neue font-bold lg:text-2xl text-lg tracking-wider mt-8">Scroll <span className="ornament"></span></p>
           </div>
         </div>
@@ -435,7 +435,7 @@ export const StepByStep = () => {
         <div className="title-steps flex justify-center items-center bg-primary pt-10 lg:w-1/5 w-full">
           <div className="flex flex-col md:pl-20 md:ml-10 md:pr-72 pr-0 sm:px-auto pt-14 gap-8 justify-center items-center text-white font-playfair">
             <p data-aos="fade-right" data-aos-duration="1000" className="font-neue font-normal lg:text-2xl text-lg">A step<span className="font-playfair">-</span>by<span className="font-playfair">-</span>  step how to make jamu</p>
-            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="lg:text-8xl text-7xl md:ml-52">BRONTOWALI</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="lg:text-8xl text-5xl md:ml-52">BRONTOWALI</h1>
             <p data-aos="fade-left" data-aos-duration="1000" className="font-neue font-bold lg:text-2xl text-lg tracking-wider mt-8">Scroll <span className="ornament"></span></p>
           </div>
         </div>
