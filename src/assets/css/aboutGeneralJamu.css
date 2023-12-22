@@ -26,6 +26,48 @@
 
   .containerAtas{
     flex: 50%;
+    width: 110vw;
+  }
+
+  .containerBawah{
+    flex: 50%;
+    width: 200vw;
+  }
+
+  .shortDesc{
+    width: 20vw;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    .mainContainer{
+      width: auto;
+      flex-direction: column;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: auto;
+    }
+
+    .containerBawah{
+      width: 100vw;
+      height: 200vh;
+    }
+
+    .containerAtas{
+      width: 100vw;
+    }
+
+    .shortDesc{
+      width: 100vw;
+    }
+
+    .contatainerLeft{
+      height: max-content;
+      margin-top: 4rem;
+    }
   }
 
  
