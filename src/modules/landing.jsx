@@ -15,13 +15,13 @@ export const Landing = () => {
     useEffect(() => {
         const animation = landingAnimation.current;
 
-        animation.fromTo(land1.current, { y: "50%" }, { y: "0%", duration: 3.5, ease: "expo.inOut", delay: 1 });
-        animation.fromTo(land1.current, { scale: 0.85 }, { scale: 1, duration: 1.5, ease: "expo.inOut", delay: 3 });
+        gsap.fromTo(land1.current, { y: "50%" }, { y: "0%", duration: 3.5, ease: "expo.inOut", delay: 1 });
+        gsap.fromTo(land1.current, { scale: 0.85 }, { scale: 1, duration: 1.5, ease: "expo.inOut", delay: 3 });
 
         // Use both Navigate and Timeout
         const redirectTimeout = setTimeout(() => {
-        navigate("/about-general-jamu");
-        }, 15000);
+        navigate("/about");
+        }, 7000);
 
         // Clean up the animation and timeout on component unmount
         // return () => {
