@@ -284,7 +284,7 @@ export const StepByStep = () => {
               <div className="flex flex-col px-12 gap-12">
                 <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/te-1.png")} alt="" className="rounded-xl mb-0 lg:w-[700px]" />
                 <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">
-                Kupas temulawak, jahe dan kunyit kemudian iris tipis-tipis.
+                Kupas temulawak, jahe dan kunyit kemudian iris tipis<span className="font-playfair">-</span>tipis.
                 </p>
               </div>
             </div>
@@ -325,7 +325,7 @@ export const StepByStep = () => {
           </div>
           <div className="flex md:flex-col flex-col-reverse px-12 lg:pt-20 pt-5 lg:-mb-16 gap-12">
             <p className="font-neue font-normal text-justify lg:text-2xl text-xl md:mb-16 md:mt-10 lg:w-3/4 w-full">
-            Masukan air dan asam Jawa. Rebus semua bahan sampai mendidih, koreksi rasa jika kurang manis bisa ditambahkan gula merah/gula pasir
+            Masukan air dan asam Jawa. Rebus semua bahan sampai mendidih, koreksi rasa jika kurang manis bisa ditambahkan gula merah<span className="font-playfair">/</span>gula pasir
             </p>
             <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/te-4.png")} alt="" className="rounded-xl mb-0" />
           </div>
@@ -460,7 +460,7 @@ export const StepByStep = () => {
               </div>
               <div className="flex flex-col px-12 lg:-mt-32 gap-12">
                 <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/br-1.png")} alt="" className="rounded-xl mb-0" />
-                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">Cuci bersih semua bahan jamu brotowali, termasuk brotowali itu sendiri, hingga benar-benar bersih.</p>
+                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">Cuci bersih semua bahan jamu brotowali, termasuk brotowali itu sendiri, hingga benar<span className="font-playfair">-</span>benar bersih.</p>
               </div>
             </div>
             <Divider />
@@ -480,7 +480,7 @@ export const StepByStep = () => {
               </div>
               <div className="flex flex-col px-12 lg:-mt-64 gap-12">
                   <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/ka-3.png")} alt="" className="rounded-xl mb-0" />
-                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">Rebus semua bahan dalam panci hingga mendidih. Pertahankan intensitas api agar bahan-bahan benar-benar direbus dengan baik.</p>
+                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">Rebus semua bahan dalam panci hingga mendidih. Pertahankan intensitas api agar bahan<span className="font-playfair">-</span>bahan benar<span className="font-playfair">-</span>benar direbus dengan baik.</p>
               </div>
             </div>
             <Divider />
@@ -489,7 +489,7 @@ export const StepByStep = () => {
                     <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" className="number md:ml-5 md:mr-3 ml-0 mb-5">4</h1>
               </div>
               <div className="flex md:flex-col flex-col-reverse px-12 lg:pt-20 pt-5 lg:-mb-16 gap-12">
-                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl md:mb-16 md:mt-10 lg:w-3/4 w-full">    Setelah proses merebus selesai, saring cairan hasil rebusan untuk memisahkan ampas atau serpihan bahan yang tidak larut. Gunakan saringan atau kain bersih untuk melakukan penyaringan.</p>
+                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl md:mb-16 md:mt-10 lg:w-3/4 w-full">Setelah proses merebus selesai, saring cairan hasil rebusan untuk memisahkan ampas atau serpihan bahan yang tidak larut. Gunakan saringan atau kain bersih untuk melakukan penyaringan.</p>
                   <img data-aos="fade-up" data-aos-duration="1500" src={require("../assets/img/br-3.png")} alt="" className="rounded-xl mb-0" />
               </div>
            </div>
@@ -500,7 +500,7 @@ export const StepByStep = () => {
               </div>
               <div className="flex flex-col px-12 lg:-mt-32 gap-12">
                   <img data-aos="fade-down" data-aos-duration="1500" src={require("../assets/img/brontowali.png")} alt="" className="rounded-xl mb-0" />
-                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">    Dinginkan cairan jamu brotowali yang sudah disaring hingga mencapai suhu yang nyaman. Sajikan dalam gelas atau wadah bersih. Jamu brotowali yang telah disiapkan sekarang siap untuk diminum.</p>
+                  <p className="font-neue font-normal text-justify lg:text-2xl text-xl lg:mt-16 lg:mb-10 lg:w-3/4 w-full">Dinginkan cairan jamu brotowali yang sudah disaring hingga mencapai suhu yang nyaman. Sajikan dalam gelas atau wadah bersih. Jamu brotowali yang telah disiapkan sekarang siap untuk diminum.</p>
               </div>
             </div>
             <Divider />
