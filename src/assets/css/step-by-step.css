@@ -34,7 +34,8 @@ body {
 }
 
 .jamu-steps {
-  width: 80vh;
+  min-width: 80vh;
+  max-width: 80vh;
 }
 
 @media all and (min-width: 480px) and (max-width: 1024px) {
@@ -81,6 +82,14 @@ body {
         height: 2px;
         background-color: #fff;
         margin-top: -100px;
+    }
+
+    .jamu-steps {
+      width: auto;
+    }
+
+    .jamu-ingre {
+      width: auto;
     }
 }  
 

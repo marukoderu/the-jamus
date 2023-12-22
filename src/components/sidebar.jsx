@@ -11,10 +11,10 @@ export const Sidebar = () => {
                 </div>
                 <div className="content">
                     <div className="content-1">
-                        <a href={'/jamu-types'}><p>About</p></a>
+                        <a href={'/jamu'}><p>Jamu</p></a>
                     </div>
                     <div className="content-1">
-                        <a href={'/about-general-jamu'}><p>History</p></a>
+                        <a href={'/about'}><p>About</p></a>
                     </div>
                     <div className="content-1">
                         <p>Recipes</p>

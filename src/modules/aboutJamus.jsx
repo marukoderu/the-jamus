@@ -14,6 +14,23 @@ export const AboutJamus = () => {
 
   console.log(jamu);
 
+  const imgMain = () =>{
+    switch (jamu) {
+      case "beras-kencur":
+        return "beras-kencur.png"
+      case "jamu-kunyit":
+        return "ka-5.png"
+      case "jamu-temulawak":
+        return "te-5.png"
+      case "jamu-empon":
+        return "mp-4.png"
+      case "jamu-brotowali":
+        return "brontowali.png"
+      default:
+        return null;
+    }
+  }
+
   const jamuTitleTop = () =>{
     switch (jamu) {
       case "beras-kencur":
@@ -53,7 +70,7 @@ export const AboutJamus = () => {
       case "beras-kencur":
         return "Beras kencur adalah minuman penyegar khas Jawa. Minuman ini juga digolongkan sebagai jamu karena memiliki khasiat meningkatkan nafsu makan. Beras kencur sangat populer karena memiliki rasa yang manis dan segar. Bahan utama beras kencur adalah beras (yang dihaluskan) dan kencur. Kombinasi beras dan kencur banyak mengandung Vitamin B yang dapat merangsang lambung memberikan rasa lapar, selain itu, jamu beras kencur jika diminum secara rutin setiap hari bisa membantu menebalkan dinding perut untuk menyembuhkan penyakit maag (untuk penyembuhan maag ini tidak boleh dicampur dengan jahe dan untuk asam jawa boleh sedikit saja).";
       case "jamu-kunyit":
-        return "Jamu kunyit asam merupakan minuman tradisional khas Indonesia yang diolah dari percampuran kunyit dan asam jawa. Kombinasi kunyit yang terkenal dengan kandungan kurkumin dan asam jawa yang kaya mineral penting, seperti magnesium, menjadikan jamu kunyit asam memiliki banyak manfaat untuk kesehatan."
+        return "Jamu Kunyit Asam adalah salah satu jenis jamu tradisional yang memiliki banyak manfaat bagi kesehatan tubuh. Jamu ini terbuat dari bahan-bahan alami seperti kunyit dan asam jawa yang telah digunakan sejak zaman dulu oleh nenek moyang kita. Dalam artikel ini, kita akan membahas secara mendalam mengenai pengertian jamu kunyit asam, cara pembuatan, manfaat, dan efek samping yang mungkin terjadi. Yuk, simak artikel ini sampai selesai untuk mengetahui lebih lanjut tentang jamu kunyit asam!. Jamu kunyit asam merupakan minuman tradisional yang berasal dari Indonesia. Jamu ini terbuat dari campuran kunyit dan asam jawa yang kemudian direbus dengan air dan ditambahkan dengan bahan-bahan lain seperti gula atau madu untuk memberikan rasa yang lebih enak. Biasanya, jamu kunyit asam diminum dalam keadaan hangat sebagai minuman penyegar atau sebagai obat tradisional untuk mengatasi berbagai masalah kesehatan."
       case "jamu-temulawak":
         return "Jamu temulawak adalah salah satu jenis jamu tradisional yang berasal dari Indonesia. Jamu ini terkenal karena kandungan utamanya, yaitu temulawak. Temulawak sendiri adalah tumbuhan herbal yang memiliki nama ilmiah Curcuma xanthorrhiza. Tumbuhan ini tumbuh di daerah tropis seperti Indonesia, Malaysia, dan Thailand. Dalam jamu temulawak, akar temulawak yang telah dikeringkan dan dihaluskan menjadi serbuk, digunakan sebagai bahan utama dalam pembuatannya."
       case "jamu-empon":
@@ -174,7 +191,7 @@ export const AboutJamus = () => {
             img_jamus_1 = el;
           }}
         >
-          <img src={require("../assets/img/jamus-1.png")} alt="" />
+          <img src={require(`../assets/img/${imgMain()}`)} alt="" />
         </div>
       </div>
       <div className="manfaat-jamus ">
